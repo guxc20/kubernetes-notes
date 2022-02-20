@@ -331,3 +331,16 @@ docker container port test
 //查看docker支持的容器操作命令
 docker container help
 ```
+
+
+## 仓库
+存放镜像点地方
+和注册服务器（registry）区别:
+注册服务器可以有多个仓库，每个仓库下可以用多个镜像
+例：仓库地址private-docker.com/ubuntu 中，private-docker.com是注册服务器地址，ubuntu是仓库名
+
+
+### 数据卷
+### 容器端口映射和容器互联
+
+### Dockerfile

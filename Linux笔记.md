@@ -94,7 +94,7 @@ Tar命令用于对文件进行打包压缩或解压
 > -C  
 > 指定解压到的目录  
 
-``````
+```
 [root@guxc test]# ls
 test1.txt
 //把test1.txt文件打包
@@ -126,6 +126,7 @@ test1.tar.gz  test1.txt
 [root@guxc test]# tar -xzvf test1.tar.gz -C /root/cnx-platform/adp-1.4.2
 test1.txt
 ```
+
 
 **9．ifconfig命令**
 Ifconfig命令用于获取网卡配置与网络状态等信息，
